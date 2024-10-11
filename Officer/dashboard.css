@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+/*--LEFT SIDE--*/
+.sidebar {
+  width: 20%;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+hr {
+  color: #ddd;
+}
+
+.menu-item {
+  margin-bottom: 15px;
+}
+.menu-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu-item ul li.active a {
+  color: #5f0301;
+  font-weight: bold;
+}
+
+.menu-item ul li a span.slave {
+  font-size: 18px;
+  color: #972323;
+}
+
+.menu-item ul li a span.std {
+  font-size: 18px;
+  color: #999;
+}
+
+
+.menu-header {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #8B0000;
+  padding: 5px;
+}
+
+.menu-item ul {
+  list-style: none;
+  padding: 5px;
+}
+
+.menu-item ul li {
+  margin-bottom: 15px;
+}
+
+.menu-item ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/*--RIGHT SIDE--*/
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.page {
+  width: 80%;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  color: #800000;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.settings-icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.portfolio, .traders, .loan-draw {
+  margin-bottom: 40px;
+}
+
+.portfolio-cards, .traders-cards, .loan-draw-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 48%;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  font-size: 24px;
+  color: #800000;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.card.highlight, h3.highlight {
+  background-color: #800000;
+  color: white;
+}
+
+.progress {
+  margin-top: 10px;
+}
+
+.progress .bar {
+  height: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #8B0000;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+}

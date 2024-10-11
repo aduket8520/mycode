@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Data</title>
+    <link rel="stylesheet" href="data.css">
+</head>
+<body>
+    <div class="container">
+        <!--Left side-->
+        <aside class="sidebar">
+            <div class="menu-header">Menu</div><hr>
+            <nav class="menu-item">
+                <ul>
+                    <li><a href="dashboard.html">Dashboard<br><span class="std">My traders</span></a></li><hr>
+                    <li><a href="onboard.html">Onboard<br><span class="std">Create Trader</span></a></li><hr>
+                    <li class="active"><a href="data.html">Review<br><span class="slave">Analyse data</span></a></li><hr>
+                    <li><a href="notifications.html">Notifications<br><span class="std">My Transactions</span></a></li><hr>
+                    <li><a href="reports.html">Reports<br><span class="std">Create Reports</span></a></li><hr>
+                    <li><a href="#">Log out</a></li><hr>
+                </ul>
+            </nav>
+        </aside>
+        <!--Right side-->
+        <div class="content">
+            <div class="header">
+                <h1>ECOSYSTEMS SOLUTION</h1>
+                <div class="user-info">
+                    <img src="loaner.avif" alt="User">
+                    <span>Mr Komla EZE <br>R/O Officer</span>
+                </div>
+            </div>
+            <h2>Sales Data</h2>
+            <div class="search-bar">
+                <button>🔽</button>
+                <input type="text" placeholder="Search...">
+                <button class="print-btn">Print 🖨️</button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th><input type="checkbox"></th>
+                        <th>#</th>
+                        <th>NAME</th>
+                        <th>STATUS</th>
+                        <th>JUNE_24</th>
+                        <th>JULY_24</th>
+                        <th>AUG_24</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>1</td>
+                        <td>Ann Culhane<br>5684236526</td>
+                        <td><span class="status available">Available</span></td>
+                        <td>1,760,000</td>
+                        <td>1,760,000</td>
+                        <td>1,760,000</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>2</td>
+                        <td>Ahmad Rosser<br>5684236527</td>
+                        <td><span class="status no-limit">No limit</span></td>
+                        <td>1,760,000</td>
+                        <td>1,760,000</td>
+                        <td>1,760,000</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>3</td>
+                        <td>Zain Calzoni<br>5684236528</td>
+                        <td><span class="status available">Available</span></td>
+                        <td>1,760,000</td>
+                        <td>1,760,000</td>
+                        <td>1,760,000</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>4</td>
+                        <td>Leo Stanton<br>5684236529</td>
+                        <td><span class="status review">Review</span></td>
+                        <td>1,760,000</td>
+                        <td>1,760,000</td>
+                        <td>1,760,000</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>5</td>
+                        <td>Kaiya Vetrovs<br>5684236530</td>
+                        <td><span class="status no-limit">No limit</span></td>
+                        <td>1,760,000</td>
+                        <td>1,760,000</td>
+                        <td>1,760,000</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="pagination">
+                <span>1-5 of 97</span>
+                <span>Rows per page:</span>
+                <select>
+                    <option>5</option>
+                </select>
+                <span>1/20</span>
+                <button>-</button>
+                <button>+</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        © Ecosystems | Equity Bank Ug 2024
+    </footer>
+</body>
+</html>

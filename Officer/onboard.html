@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onboard Trader</title>
+    <link rel="stylesheet" href="onboard.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="menu-header">Menu</div><hr>
+            <nav class="menu-item">
+                <ul>
+                    <li><a href="dashboard.html">Dashboard<br><span class="std">My traders</span></a></li><hr>
+                    <li class="active"><a href="onboard.html">Onboard<br><span class="slave">Create Trader</span></a></li><hr>
+                    <li><a href="data.html">Review<br><span class="std">Analyse data</span></a></li><hr>
+                    <li><a href="notifications.html">Notifications<br><span class="std">My Transactions</span></a></li><hr>
+                    <li><a href="reports.html">Reports<br><span class="std">Create Reports</span></a></li><hr>
+                    <li><a href="#">Log out</a></li><hr>
+                </ul>
+            </nav>
+        </aside>
+        <!-- Main Content -->
+        <main class="page">
+            <!-- Header -->
+            <header class="header">
+                <h1>ECOSYSTEMS SOLUTION</h1>
+                <div class="user-info">
+                    <img src="loaner.avif" alt="User Photo">
+                    <div>
+                        <h3>Mr Komla EZE</h3>
+                        <p>R/O Officer</p>
+                    </div>
+                    <div class="settings-icon">&#9881;</div>
+                </div>
+            </header>
+
+            <!-- Onboard Trader Form -->
+            <section class="onboard-form">
+                <h2>Onboard Trader</h2>
+                <div class="tabs">
+                    <a href="onboard.html"><button class="tab active">Overview</button></a>
+                    <a href="registration.html"><button class="tab">Registration details</button></a>
+                    <a href="contact.html"><button class="tab">Contact Person</button></a>
+                </div>
+
+                <form>
+                    <label for="business-type">Nature of Business:</label>
+                    <select id="business-type" name="business-type">
+                        <option>Select business registration nature eg Company, Business</option>
+                    </select>
+
+                    <label for="business-name">Business Name:</label>
+                    <input type="text" id="business-name" name="business-name">
+
+                    <label for="equity-customer">Equity Customer?</label>
+                    <select id="equity-customer" name="equity-customer">
+                        <option>Select Yes or No</option>
+                    </select>
+
+                    <label for="account-number">Account Number:</label>
+                    <input type="text" id="account-number" name="account-number">
+
+                    <label for="industry">Industry:</label>
+                    <select id="industry" name="industry">
+                        <option>Trade and Commerce</option>
+                    </select>
+
+                    <label for="supply-chain-role">Supply chain role:</label>
+                    <select id="supply-chain-role" name="supply-chain-role">
+                        <option>Select role in supply chain eg Anchor, Distributor, Wholesaler</option>
+                    </select>
+
+                    <label for="business-location">Business Location:</label>
+                    <input type="text" id="business-location" name="business-location">
+
+                    <button type="submit" class="next-btn">Next</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>© Ecosystems | Equity Bank Ug 2024</p>
+    </footer>
+</body>
+</html>

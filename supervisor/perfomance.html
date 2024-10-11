@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance</title>
+    <link rel="stylesheet" href="perfomance.css">
+</head>
+<body>
+    <div class="container">
+        <!--Left side-->
+        <aside class="sidebar">
+            <div class="menu-header">Menu</div><hr>
+            <nav class="menu-item">
+                <ul>
+                    <li><a href="dashboard.html">Dashboard<br><span class="std">My Traders Summary</span></a></li><hr>
+                    <li class="active"><a href="profile.html">Officers<br><span class="slave">Manage Officers</span></a></li><hr>
+                    <li><a href="tickets.html">Tickets<br><span class="std">Follow up Tickets</span></a></li><hr>
+                    <li><a href="notifications.html">Notifications<br><span class="std">All Notifications</span></a></li><hr>
+                    <li><a href="reports.html">Reports<br><span class="std">Create Reports</span></a></li><hr>
+                    <li><a href="#">Log out</a></li><hr>
+                </ul>
+            </nav>
+        </aside>
+
+        <!--Right side-->
+        <div class="main-content">
+            <div class="header">
+                <h2>ECOSYSTEMS SOLUTION</h2>
+                <div class="user-info">
+                    <img src="supervisor.jpg" alt="User">
+                    <span>User</span>
+                </div>
+            </div>
+            <h3>Relationship Officer Performance</h3>
+            <div class="tabs">
+                <a href="profile.html"><button class="tab">Create Officer</button></a>
+                <a href="perfomance.html"><button class="tab active">My Officers </button></a>
+                <a href="edit.html"><button class="tab">Edit Details</button></a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>NAME</th>
+                        <th>PAR</th>
+                        <th>NUMBER OF TRADERS</th>
+                        <th>LOAN BOOK</th>
+                        <th>ARREARS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Ann Culhane<br>5684236526</td>
+                        <td></td>
+                        <td>1,760,000</td>
+                        <td>1,760,000</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Ahmad Rosser<br>5684236527</td>
+                        <td></td>
+                        <td>1,760,000</td>
+                        <td>1,760,000</td>
+                        <td>1,760,000</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Zain Calzoni<br>5684236528</td>
+                        <td></td>
+                        <td>1,760,000</td>
+                        <td>1,760,000</td>
+                        <td>1,760,000</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Leo Stanton<br>5684236529</td>
+                        <td></td>
+                        <td>1,760,000</td>
+                        <td>1,760,000</td>
+                        <td>1,760,000</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="pagination">
+                <span>1-5 of 97</span>
+                <span>Rows per page: </span>
+                <select>
+                    <option>5</option>
+                </select>
+                <button>&#60;</button>
+                <span>1/20</span>
+                <button>&#62;</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        © Ecosystems | Equity Bank Ug 2024
+    </div>
+</body>
+</html>

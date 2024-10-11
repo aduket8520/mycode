@@ -1,0 +1,179 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+
+/* left side*/
+.sidebar {
+  width: 20%;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+hr {
+  color: #ddd;
+}
+
+.menu-item {
+  margin-bottom: 15px;
+}
+.menu-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu-item ul li.active a {
+  color: #5f0301;
+  font-weight: bold;
+}
+
+.menu-item ul li a span.slave {
+  font-size: 18px;
+  color: #972323;
+}
+
+.menu-item ul li a span.std {
+  font-size: 18px;
+  color: #999;
+}
+
+
+.menu-header {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #8B0000;
+  padding: 5px;
+}
+
+.menu-item ul {
+  list-style: none;
+  padding: 5px;
+}
+
+.menu-item ul li {
+  margin-bottom: 15px;
+}
+
+.menu-item ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/*--Right side--*/
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
+  width: 80%;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+h1 {
+  color: #8B0000;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+h2 {
+  font-size: 30px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.reports-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+.report-button {
+  padding: 30px;
+  border: 2px solid #8B0000;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.report-button.active {
+  background-color: #8B0000;
+  color: white;
+}
+.help-section {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+}
+.help-section h3 {
+  margin-top: 0;
+}
+.help-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+.help-input input {
+  flex-grow: 2;
+  padding: 20px;
+  margin-right: 10px;
+  font-size: 26px;
+}
+
+.help-input button {
+  padding: 15px 10px;
+  background-color: #333;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.submit {
+  background-color: #8B0000;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #8B0000;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+}

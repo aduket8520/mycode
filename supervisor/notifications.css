@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+/*--Left side--*/
+.sidebar {
+  width: 20%;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+hr {
+  color: #ddd;
+}
+
+.menu-item {
+  margin-bottom: 15px;
+}
+.menu-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu-item ul li.active a {
+  color: #5f0301;
+  font-weight: bold;
+}
+
+.menu-item ul li a span.slave {
+  font-size: 18px;
+  color: #972323;
+}
+
+.menu-item ul li a span.std {
+  font-size: 18px;
+  color: #999;
+}
+
+
+.menu-header {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #8B0000;
+  padding: 5px;
+}
+
+.menu-item ul {
+  list-style: none;
+  padding: 5px;
+}
+
+.menu-item ul li {
+  margin-bottom: 15px;
+}
+
+.menu-item ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/*--Right side--*/
+h1 {
+  color: #8B0000;
+  font-size: 36px;
+  margin-top: 2px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+header h1 {
+  font-size: 36px;
+  color:#8B0000;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 90%;
+}
+
+.notifications-section {
+  margin-top: 20px;
+
+}
+
+.notifications-section h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.notification-filters {
+  margin-bottom: 20px;
+}
+
+.notification-filters button {
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  border: none;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+.notification-filters button.active {
+  background-color: #b30000;
+  color: #fff;
+}
+
+.notification-list {
+  margin-bottom: 20px;
+}
+
+.notification {
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.notification h3 {
+  font-size: 20px;
+  color: #1a0101;
+  margin-bottom: 5px;
+}
+
+.notification p {
+  font-size: 18px;
+  color: #666;
+}
+
+.more-notifications {
+  text-align: center;
+}
+
+.more-notifications button {
+  padding: 10px 20px;
+  background-color: #b30000;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #800000;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+}

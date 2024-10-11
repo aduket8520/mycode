@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profiles</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="container">
+        <!--Left side-->
+        <aside class="sidebar">
+            <div class="menu-header">Menu</div><hr>
+            <nav class="menu-item">
+                <ul>
+                    <li><a href="dashboard.html">Dashboard<br><span class="std">My Traders Summary</span></a></li><hr>
+                    <li class="active"><a href="profile.html">Officers<br><span class="slave">Manage Officers</span></a></li><hr>
+                    <li><a href="tickets.html">Tickets<br><span class="std">Follow up Tickets</span></a></li><hr>
+                    <li><a href="notifications.html">Notifications<br><span class="std">All Notifications</span></a></li><hr>
+                    <li><a href="reports.html">Reports<br><span class="std">Create Reports</span></a></li><hr>
+                    <li><a href="#">Log out</a></li><hr>
+                </ul>
+            </nav>
+        </aside>
+
+        <!--Right side-->
+        <div class="main-content">
+            <div class="header">
+                <h2>ECOSYSTEMS SOLUTION</h2>
+                <div class="user-info">
+                    <img src="supervisor.jpg" alt="User">
+                    <span>User</span>
+                </div>
+            </div>
+            <h3>Relationship Officers</h3>
+            <div class="tabs">
+                <a href="profile.html"><button class="tab active">Create Officer</button></a>
+                <a href="perfomance.html"><button class="tab">My Officers</button></a>
+                <a href="edit.html"><button class="tab">Edit Details</button></a>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="branch">Branch:</label>
+                    <input type="text" id="branch" name="branch">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="inheriting_portfolio" checked>
+                        Inheriting Portfolio?
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="previous_pf">Previous PF Number:</label>
+                    <input type="text" id="previous_pf" name="previous_pf">
+                </div>
+                <button type="submit" class="create-btn">Create</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        © Ecosystems | Equity Bank Ug 2024
+    </div>
+</body>
+</html>

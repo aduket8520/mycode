@@ -1,0 +1,190 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+.container {
+  display: flex;
+  height: 100%;
+}
+/*--Left side--*/
+.sidebar {
+  width: 20%;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+hr {
+  color: #ddd;
+}
+
+.menu-item {
+  margin-bottom: 15px;
+}
+.menu-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu-item ul li.active a {
+  color: #5f0301;
+  font-weight: bold;
+}
+
+.menu-item ul li a span.slave {
+  font-size: 18px;
+  color: #972323;
+}
+
+.menu-item ul li a span.std {
+  font-size: 18px;
+  color: #999;
+}
+
+
+.menu-header {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #8B0000;
+  padding: 5px;
+}
+
+.menu-item ul {
+  list-style: none;
+  padding: 5px;
+}
+
+.menu-item ul li {
+  margin-bottom: 15px;
+}
+
+.menu-item ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/*--Right side--*/
+h2 {
+  color: #8B0000;
+  font-size: 36px;
+  margin-top: 2px;
+}
+h3 {
+  font-size: 30px;
+  margin-top: 2px;
+}
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  width: 80%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+}
+.user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.tabs {
+  margin-bottom: 10px;
+}
+.tab {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 24px;
+}
+.tab.active {
+  background-color: #8b0000;
+  color: white;
+  font-size: 24px;
+}
+.search-bar {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  width: 50%;
+}
+.search-bar input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 50%;
+}
+.search-bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+form {
+  
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  
+}
+.form-group label {
+  display: inline-block;
+  width: 200px;
+  text-align: right;
+  margin-right: 20px;
+  font-weight: bold;
+}
+.form-group input[type="text"] {
+  width: 50%;
+  display: flex;
+  font-size: 24px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 300px;
+}
+.btn {
+  background-color: #8b0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-left: 40%;
+}
+.footer {
+  background-color: #8b0000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+}

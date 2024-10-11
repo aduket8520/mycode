@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register page</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Section -->
+        <div class="left-section">
+            <img src="logo.png" alt="Logo" class="logo"> <!-- Add your logo here -->
+            <p>Welcome to the</p>
+            <h2>Ecosystems solution</h2>
+            <p>Where your dreams come true.</p>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="login-header">
+                <a href="#" class="register-link">Register</a>
+                <a href="#" class="signin-link">Sign in</a>
+            </div>
+            <div class="register-box">
+                <form action="/register" method="post">
+                    <div class="input-group">
+                        <label for="business-name">Business Name</label>
+                        <input type="text" id="business-name" name="business-name" placeholder="Enter your business name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="phone">Phone Contact</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone contact" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="location">Business Location</label>
+                        <input type="text" id="location" name="location" placeholder="Enter your business location" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="branch">Nearby Branch</label>
+                        <input type="text" id="branch" name="branch" placeholder="Enter nearby branch" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="account-number">Account Number</label>
+                        <input type="text" id="account-number" name="account-number" placeholder="Enter your account number" required>
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                </form>
+                <p>Have an account? <a href="#" class="signin-link-text">Sign In</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
